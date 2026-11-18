@@ -194,3 +194,4 @@ Per project requirements, the backend serves as the absolute source of truth. Th
    - The backend issues a 24-hour stateless JWT token upon login/registration. There is no refresh token endpoint. Token expiration is handled by automatically prompting the user to sign back in.
 5. **Real-time WebSockets / SSE**:
    - The backend is a stateless REST API. Instant updates are achieved through TanStack Query optimistic mutations and automatic cache invalidations.
+Author-Prysh
